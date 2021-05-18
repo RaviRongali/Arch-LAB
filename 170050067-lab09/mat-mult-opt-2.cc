@@ -1,0 +1,28 @@
+#include<stdio.h>
+#define SIZE 100
+
+static double A[SIZE][SIZE],B[SIZE][SIZE],D[SIZE][SIZE];
+
+int main(){
+	for(int l=0;l<SIZE;l++){
+		B[l][l] = 2;
+		// C[0][l] = l;
+		D[l][0] = l;}
+
+	
+
+
+	for(int i=0;i<SIZE;i++){
+		for(int j=0;j<SIZE;j++){
+			for(int k=0;k<SIZE;k++){
+				A[i][j] = A[i][j] + B[i][k]*D[j][k];
+				printf("0 %p\n",(void*)&(A[i][j]));
+				printf("0 %p\n",(void*)&(B[i][k]));
+				printf("0 %p\n",(void*)&(D[j][k]));
+				printf("1 %p\n",(void*)&(A[i][j]));
+			}
+		}
+	}
+	return 0;
+}
+

@@ -1,0 +1,28 @@
+task-1
+for non-opt
+1.real	0m0.579s
+2.real	0m0.580s
+3.real	0m0.590s
+4.real	0m0.599s
+5.real	0m0.627s
+median =0.590s
+for opt
+1.real	0m0.571s
+2.real	0m0.572s
+3.real	0m0.574s
+4.real	0m0.575s
+5.real	0m0.577s
+meadia=0.574s
+
+Task-2
+
+for non-opt
+ Demand Misses		       27066	
+for opt
+ Demand Misses		       23787
+
+hence decreased
+
+task-3
+max change at 21
+no graph

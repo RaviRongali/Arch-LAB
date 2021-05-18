@@ -1,0 +1,13 @@
+1.without forwarding 284 cycles
+
+with forwarding 217 cycles
+
+speed up = 1.308
+
+2.
+without forwarding 284
+
+with forwarding 206
+
+speedup 1.37
+

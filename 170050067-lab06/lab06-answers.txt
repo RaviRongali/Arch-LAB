@@ -1,0 +1,13 @@
+2q
+1.branch always not taken is used.
+after condition branch ,even if it is true the next cmd started executing,After IF stage ,it stopped executing
+
+2.2-stage brances are implemented
+because "bnez" a RAW is obeserved in ID stage,that is possible when a comparator is being used on instruction in ID stage .
+
+
+3q
+In ID stage
+
+2-stage branch implementation is implemented because "bnez" a RAW is obeserved in ID stage,that is possible when a comparator is being used on instruction in ID stage .
+

@@ -1,0 +1,15 @@
+q1	1.225
+
+	2.2072
+
+	3.82
+
+
+q2
+shape of graph is monotonically decreasing and reached a constant value.Beacuse as cache increases number of misses decreses and miss rate decreases.There isnt any significant change in miss rate after a point as cache size is large enough.
+
+q3
+Shape of the graph first decreases and increase after some point.This is because block size increase compulsary misses decreases.Increasing block size further for same cache size decreases the number of blocks,thus increasing the conflict misses,in turn increasing miss rate
+
+q4
+Increase in associtivity decreases miss rate

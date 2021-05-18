@@ -1,0 +1,35 @@
+q1
+1.Cross Compiler is a compiler capable of creating exeutable code for a platform other than which the compiler is running.
+
+2.Host Platform A website or network based portal which enables interactions among members,including both technological components and policy components
+
+3.target Platform refers to the plug-ins which workspace will be built and run aganist.
+
+
+q2
+$ mips-linux-gnu-gcc -S -mno-explicit-relocs gcd.c 
+$ ./remove_asm_directives.pl gcd.s gcd-noopt.s
+
+q3
+$ spim
+(spim) load "gcd-noopt.s"
+(spim) load "asmutils.s"
+(spim) run
+b)
+first tried for 200,175,150
+next increased 165
+next decresed 160,155
+finally 151
+checked by step 150
+again step gives final step beacuse after this step gives first instruction only,
+in this first 6 instructions are for loading before running main programming
+6+142(from code)+3(end of code)=151
+
+
+q4
+$ mips-linux-gnu-gcc -O1 -fno-delayed-branch -S -mno-explicit-relocs gcd.c 
+$ ./remove_asm_directives.pl gcd.s gcd-opt.s
+
+b)
+6(default)+  64(code instructions) +3(defualt)
+
